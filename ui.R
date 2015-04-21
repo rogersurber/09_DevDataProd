@@ -14,7 +14,12 @@ shinyUI(
                 verbatimTextOutput("inputValue"),
                 h4('Result of stopping distance (feet):'),
                 verbatimTextOutput("prediction"),
-                h4('Choose the speed of the car in miles per hour (mph). You will receive an estimate of stopping distance in feet [feet]')
+                h3(''),
+                h3('Instructions'),
+                h4('Choose the speed of the car in miles per hour (mph) on the slider.
+                   Submit the value for calculation by pressing the Submit button. 
+                   You will receive an estimate of the car\'s stopping distance in feet [feet]
+                   at the selected speed.')
                 )
         )
 )
